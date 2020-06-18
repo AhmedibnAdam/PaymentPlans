@@ -1,4 +1,4 @@
-# Refactor if/else  , switch to cleaner code
+# Refactor if/else  , switch twith Protocols Methhods
 
 
 ## Problem
