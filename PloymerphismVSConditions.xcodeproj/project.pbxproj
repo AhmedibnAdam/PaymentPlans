@@ -15,6 +15,9 @@
 		66864AA8249AC8CF007CBBA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66864AA6249AC8CF007CBBA3 /* LaunchScreen.storyboard */; };
 		66864AB3249AC8CF007CBBA3 /* PloymerphismVSConditionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66864AB2249AC8CF007CBBA3 /* PloymerphismVSConditionsTests.swift */; };
 		66864ABE249AC8CF007CBBA3 /* PloymerphismVSConditionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66864ABD249AC8CF007CBBA3 /* PloymerphismVSConditionsUITests.swift */; };
+		66864ACC249AEFD4007CBBA3 /* PaymentProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66864ACB249AEFD4007CBBA3 /* PaymentProtocols.swift */; };
+		66864ACE249AF023007CBBA3 /* PaymentMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66864ACD249AF023007CBBA3 /* PaymentMethods.swift */; };
+		66864AD0249AF042007CBBA3 /* PaymentPlans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66864ACF249AF042007CBBA3 /* PaymentPlans.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		66864AB9249AC8CF007CBBA3 /* PloymerphismVSConditionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PloymerphismVSConditionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66864ABD249AC8CF007CBBA3 /* PloymerphismVSConditionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PloymerphismVSConditionsUITests.swift; sourceTree = "<group>"; };
 		66864ABF249AC8CF007CBBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66864ACB249AEFD4007CBBA3 /* PaymentProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentProtocols.swift; sourceTree = "<group>"; };
+		66864ACD249AF023007CBBA3 /* PaymentMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethods.swift; sourceTree = "<group>"; };
+		66864ACF249AF042007CBBA3 /* PaymentPlans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPlans.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +107,11 @@
 			children = (
 				66864A9B249AC8CD007CBBA3 /* AppDelegate.swift */,
 				66864A9D249AC8CD007CBBA3 /* SceneDelegate.swift */,
-				66864A9F249AC8CD007CBBA3 /* ViewController.swift */,
 				66864AA1249AC8CD007CBBA3 /* Main.storyboard */,
+				66864A9F249AC8CD007CBBA3 /* ViewController.swift */,
+				66864ACB249AEFD4007CBBA3 /* PaymentProtocols.swift */,
+				66864ACD249AF023007CBBA3 /* PaymentMethods.swift */,
+				66864ACF249AF042007CBBA3 /* PaymentPlans.swift */,
 				66864AA4249AC8CF007CBBA3 /* Assets.xcassets */,
 				66864AA6249AC8CF007CBBA3 /* LaunchScreen.storyboard */,
 				66864AA9249AC8CF007CBBA3 /* Info.plist */,
@@ -259,9 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66864ACE249AF023007CBBA3 /* PaymentMethods.swift in Sources */,
+				66864ACC249AEFD4007CBBA3 /* PaymentProtocols.swift in Sources */,
 				66864AA0249AC8CD007CBBA3 /* ViewController.swift in Sources */,
 				66864A9C249AC8CD007CBBA3 /* AppDelegate.swift in Sources */,
 				66864A9E249AC8CD007CBBA3 /* SceneDelegate.swift in Sources */,
+				66864AD0249AF042007CBBA3 /* PaymentPlans.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
